@@ -1,0 +1,28 @@
+{
+  "uuid": "40dc4cc8-8809-44df-bfbd-2af1d2b73c2b",
+  "shortName": "BNS_Pebble_v2",
+  "longName": "BNS_Pebble_v2",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_ALARM_BUTTON",
+        "file": "Alarm_button.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_OK_POPUP",
+        "file": "OK_popup_2.png"
+      }
+    ]
+  }
+}

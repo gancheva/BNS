@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="MainStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vXZ-lx-hvc" customClass="ViewController" customModule="BNSIos_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TnT-o5-0fa"/>
+                        <viewControllerLayoutGuide type="bottom" id="9WR-wV-Eg4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" restorationIdentifier="commTracker" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hy-PW-oF0">
+                                <rect key="frame" x="26" y="30" width="549" height="497"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRl-kE-4YP">
+                                <rect key="frame" x="222" y="547" width="156" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="OJj-gr-JK2"/>
+                                    <constraint firstAttribute="width" constant="156" id="PTJ-Ff-Rmg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Notify Watch"/>
+                                <connections>
+                                    <action selector="updateWatch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lY1-nk-cNX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LRl-kE-4YP" firstAttribute="top" secondItem="6Hy-PW-oF0" secondAttribute="bottom" constant="20" id="CpW-aE-Wod"/>
+                            <constraint firstItem="9WR-wV-Eg4" firstAttribute="top" secondItem="LRl-kE-4YP" secondAttribute="bottom" constant="20" id="LWS-H4-odb"/>
+                            <constraint firstItem="6Hy-PW-oF0" firstAttribute="top" secondItem="TnT-o5-0fa" secondAttribute="bottom" constant="10" id="UTE-2G-Z2M"/>
+                            <constraint firstItem="6Hy-PW-oF0" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="f86-fg-69b"/>
+                            <constraint firstAttribute="centerX" secondItem="LRl-kE-4YP" secondAttribute="centerX" id="hE8-EH-ELa"/>
+                            <constraint firstItem="6Hy-PW-oF0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ngY-x4-3vU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="commTracker" destination="6Hy-PW-oF0" id="6p6-L1-b3i"/>
+                        <outlet property="notifyButton" destination="LRl-kE-4YP" id="cMN-6f-pMN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="368"/>
+        </scene>
+    </scenes>
+</document>

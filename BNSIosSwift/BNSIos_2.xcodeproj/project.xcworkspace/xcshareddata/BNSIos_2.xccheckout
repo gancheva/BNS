@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F3BE39FD-3F0A-4E1E-8505-63EC86327B08</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BNSIos_2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0B8C50677774E747764651B9EB0299E791F993EF</key>
+		<string>git.peperzaken.nl:BNSIos</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BNSIos_2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0B8C50677774E747764651B9EB0299E791F993EF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.peperzaken.nl:BNSIos</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0B8C50677774E747764651B9EB0299E791F993EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0B8C50677774E747764651B9EB0299E791F993EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BNSIos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
